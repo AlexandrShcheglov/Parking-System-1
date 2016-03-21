@@ -1,6 +1,6 @@
 package com.parksystem.model;
 
-public class Motorcycle extends Vehicle{
+public class Bus extends Vehicle{
 
 	@Override
 	public boolean canFitInSpot(ParkingSpot spot) {
@@ -11,7 +11,7 @@ public class Motorcycle extends Vehicle{
 	@Override
 	public void print() {
 		// TODO Auto-generated method stub
-		System.out.println("Motorcycle");
+		System.out.println("Bus");
 	}
 
 }
